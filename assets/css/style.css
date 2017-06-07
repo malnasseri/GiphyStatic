@@ -1,0 +1,77 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-size: cover;                      /* <------ */
+    background-repeat: no-repeat;
+    font-family: 'Capriola', sans-serif;
+}
+
+
+ button {
+	padding: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	background-color: #808080;
+	border-style:none;
+	font-size: 14px;
+	color:white;
+	font-family: 'Capriola', sans-serif;
+}
+#sports {
+	margin-left: 20px;
+	padding: 20px;
+}
+
+h1 {
+	padding-bottom: 20px;
+	padding-top: 30px;
+	color: #DCDCDC;
+	font-size: 55px;
+	text-align: center;
+	font-family: 'Capriola', sans-serif;
+}
+
+form {
+	padding-top: 20px;
+	margin-right: 50px;
+	float: right;
+	line-height: 30px;
+
+}
+#add-sport {
+	margin: 20px;
+	font-size: 16px;
+	background-color:#4B0082;
+	color: #DCDCDC;
+	padding: 10px; 
+	border-style:none;
+	font-family: 'Capriola', sans-serif;
+
+	
+	}
+#search-input {
+	line-height: 20px;
+	margin-right: 80px;
+	background-color: silver;
+	font-size: 14px;
+
+	
+}
+img {
+	margin-left:40px;
+	border: solid 8px;
+	max-width: 350px;
+	max-height: 250px;
+}
+p {
+	padding: 20px;
+	margin-left: 40px;
+	color: white;
+	font-size: 18px;
+}
+#gifs {
+	padding-bottom: 40px;
+}
+
+
+
+
