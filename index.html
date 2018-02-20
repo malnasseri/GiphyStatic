@@ -4,23 +4,30 @@
 		<meta charset="utf-8">
 		<title>Sports Gifs</title>
 		<link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
-		<div class="container">
+		<div class="container-fluid">
 			<h1>Sports Gifs</h1>
-			<div id="sports">
+			<div class="col-xs-12 col-sm-12" id="sports">
+				
 			</div>
+			<div class="col-xs-12 col-sm-12 form-div">
 			<form>
-				<label for="search-input">
-				</label>
+				
 				<input type="text" id="search-input"><br>
-				<input type="submit" id="add-sport" value="Add a Sport !!">
+				<input type="submit" id="add-sport">
 			</form>
-			
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12">
 			<div id="gifs">
 			</div>
+		</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
 		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

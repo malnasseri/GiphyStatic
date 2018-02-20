@@ -1,9 +1,14 @@
 body {
-	background-image: url("../images/background.jpg");
-	background-size: cover;                      /* <------ */
-    background-repeat: no-repeat;
-    font-family: 'Capriola', sans-serif;
+	
+	background: url("../images/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Capriola', sans-serif;
 }
+button:focus, input:focus {outline:0 !important;}
 
 
  button {
@@ -17,7 +22,7 @@ body {
 	font-family: 'Capriola', sans-serif;
 }
 #sports {
-	margin-left: 20px;
+	text-align: center;
 	padding: 20px;
 }
 
@@ -30,45 +35,59 @@ h1 {
 	font-family: 'Capriola', sans-serif;
 }
 
-form {
+/*form {
 	padding-top: 20px;
 	margin-right: 50px;
 	float: right;
 	line-height: 30px;
 
-}
+}*/
 #add-sport {
-	margin: 20px;
+	/*margin: 20px;*/
 	font-size: 16px;
 	background-color:#4B0082;
 	color: #DCDCDC;
 	padding: 10px; 
 	border-style:none;
 	font-family: 'Capriola', sans-serif;
+	width: 40%;
 
 	
 	}
 #search-input {
-	line-height: 20px;
-	margin-right: 80px;
-	background-color: silver;
-	font-size: 14px;
-
 	
+	 background-color: #f4f5f6;
+  border-radius: .4em;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 350;
 }
 img {
-	margin-left:40px;
+	/*margin-left:40px;*/
 	border: solid 8px;
-	max-width: 350px;
-	max-height: 250px;
+	width: 350px;
+	height: 250px;
+}
+.form-div {text-align: center;}
+.form-div input{
+width: 50%;
+margin-bottom: 10px;
+}
+.gifsDiv {
+	float: left;
+	text-align: center;
+	padding: 5px;
 }
 p {
+
 	padding: 20px;
-	margin-left: 40px;
+	/*margin-left: 40px;*/
 	color: white;
 	font-size: 18px;
 }
 #gifs {
+	text-align: center;
 	padding-bottom: 40px;
 }
 
