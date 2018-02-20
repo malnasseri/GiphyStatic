@@ -17,7 +17,9 @@
 
           var results = response.data;
          
-          
+            var rating = $("<p>").text("Rating: " + results[i].rating);
+
+            gifsDiv.append(rating);
           var gifImage = $("<img>");
 
             gifImage.attr("src", results[i].images.fixed_height_still.url); 
@@ -26,9 +28,7 @@
             gifImage.attr("data-state", "still"); 
             gifImage.addClass("image");
             gifsDiv.append(gifImage);
-             var rating = $("<p>").text("Rating: " + results[i].rating);
-
-            gifsDiv.append(rating);
+           
               
             $("#gifs").prepend(gifsDiv);
             
