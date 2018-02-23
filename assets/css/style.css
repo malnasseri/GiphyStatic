@@ -116,10 +116,21 @@ img {
 margin-top: 20px;
 
 }
+input::-webkit-input-placeholder { /* WebKit browsers */
+  line-height: 1.5em;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  line-height: 1.5em;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  line-height: 1.5em;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  line-height: 1.5em;
+}
 .form-div input{
 width: 50%;
 margin-bottom: 10px;
-line-height: none;
 }
 .gifsDiv {
 	float: left;
