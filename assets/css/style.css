@@ -119,6 +119,7 @@ margin-top: 20px;
 .form-div input{
 width: 50%;
 margin-bottom: 10px;
+line-height: none;
 }
 .gifsDiv {
 	float: left;
