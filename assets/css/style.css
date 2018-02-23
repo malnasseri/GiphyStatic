@@ -7,6 +7,7 @@ body {
   background-size: cover;
   text-align: center;
   font-family: 'Capriola', sans-serif;
+  background-color: black;
 }
 button:focus, input:focus {outline:0 !important;}
 
@@ -110,7 +111,11 @@ img {
 	width: 350px;
 	height: 250px;
 }
-.form-div {text-align: center;}
+.form-div {text-align: center;
+
+margin-top: 20px;
+
+}
 .form-div input{
 width: 50%;
 margin-bottom: 10px;
@@ -152,7 +157,15 @@ border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
  background-image: -o-linear-gradient(top, #26759e, #133d5b);
  background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
 }
-
+@media only screen and (min-width : 768px) and (max-width: 1023px){
+	#add-sport {
+		width: 80%;
+	}
+.form-div input{
+width: 80%;
+margin-bottom: 10px;
+}
+}
 
 
 
